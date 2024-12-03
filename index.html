@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My weatger app</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sea">
+      <input id="get" type="text"  placeholder="search city">
+      <button id="select" class="button" onclick="action()">Search</button>
+      <!-- <i class="fa fa-search"></i> -->
+    </div>
+    <div class="img" >
+      <img src="" id="icon">
+    </div>
+    <h1 id="cal">
+      0°c
+    </h1>
+    <h1 id="city">
+      City
+    </h1>
+    <div class="other">
+      <div class="left">
+        <img id="hum" src="humidity_2.png">
+        <h1 class="value" id="humi"></h1>
+        <h1 id="up">Humidity</h1>
+      </div>
+      <div class="right">
+        <img id="wind" src="windfinal3.png">
+        <h1 class="value" id="speed"></h1>
+        <h1 id="up">Wind Speed</h1>
+      </div>
+    </div>
+  </div>
+<script src="weather.js"></script>
+</body>
+</html>

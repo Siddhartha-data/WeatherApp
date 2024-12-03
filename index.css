@@ -1,0 +1,93 @@
+body ,html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 18, 43);
+    
+}
+.container{
+
+    background-image: linear-gradient(rgb(107, 196, 235),rgb(42, 53, 60)) ;
+    border-radius: 20px;
+}
+.button{
+    background-color: rgb(239, 219, 219);
+    height: 40px;
+    border: none;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+.button:hover{
+    transform: scale(1.2);
+}
+#find{
+
+    height: 40px;
+    border: none;
+}
+.sea{
+    margin: 20px;
+    display: flex;
+}
+input{
+    background-color: rgb(244, 240, 240);
+    border: none;
+    width: 400px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    padding-left: 20px;
+
+}
+input:hover{
+    border: none;
+}
+.img img{ 
+   /* width: 100px; */
+   height: 200px;
+}
+.img{
+    text-align: center;
+}
+#cal, #city{
+    text-align: center;
+    color: white;
+
+}
+#cal{
+    font-size: 80px;
+}
+#city{
+    margin-top: -30px;
+}
+.other{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.left img{
+    margin-top: -12px;
+    width: 80px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.right img{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#up{
+    margin-top: -20px;
+    
+}
+
+.value{
+    margin-top: -15px;
+    margin-left: 20px;
+}
